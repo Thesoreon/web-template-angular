@@ -1,0 +1,15 @@
+{
+  "name": "personal-angular-template",
+  "version": "1.0.0",
+  "description": "Thesoreon's personal angular template",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "template",
+    "angular"
+  ],
+  "author": "Pavel Susicky",
+  "license": "ISC"
+}
