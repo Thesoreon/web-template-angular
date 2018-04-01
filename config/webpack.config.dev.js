@@ -13,6 +13,16 @@ module.exports = webpackMerge(commonConfig, {
     chunkFilename: "[id].chunk.js"
   },
 
+  module: {
+    rules: [
+      {
+        test: /\.ts$/,
+        enforce: "pre",
+        loader: "tslint-loader"
+      }
+    ]
+  },
+
   plugins: [
     new ExtractTextPlugin("[name].css")
   ],
